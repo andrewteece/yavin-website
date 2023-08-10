@@ -42,6 +42,11 @@
   width: 500px;
 }
 
+.details-2 .decoration-star {
+  right: -12.5rem;
+  width: 31.25rem;
+}
+
 @media (max-width: 992px) {
   .xl-text {
     font-size: 3.125rem;
@@ -70,5 +75,18 @@
 
   .header .image-container {
     margin-top: 1.875rem;
+  }
+
+  .services .col-md-4 {
+    border-bottom: 1px solid #ccc;
+    margin: 0.625rem 0;
+  }
+
+  .details-2 {
+    margin-top: 20px !important;
+  }
+
+  .details-2 .decoration-star {
+    top: 18.75rem;
   }
 }
